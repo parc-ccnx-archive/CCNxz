@@ -2,10 +2,10 @@
 Compressed CCNx uses TLV-aware compression to reduce the overhead of TL encoding.
 It also learns common TLV tuples (like keyid or public keys) and compresses them.
 
-This is experimental code related to a compressed TLV encoding.  Please see this
-presentation for more information about the compression scheme.
-
-https://datatracker.ietf.org/meeting/interim-2016-icnrg-02/materials/slides-interim-2016-icnrg-2-7
+This is experimental code related to a compressed TLV encoding.  Please see the
+included presentation `ccnxz-slides.pdf` (also available at 
+[ICNRG](https://datatracker.ietf.org/meeting/interim-2016-icnrg-02/materials/slides-interim-2016-icnrg-2-7))
+for details on the compression scheme.
 
 # TXT to Binary
     xxd -r -g 1 -c 8 infile outfile
